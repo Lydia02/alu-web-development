@@ -1,235 +1,238 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<head> 
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webpage Design</title>
-    <link href="styles.css" rel="stylesheet">
+    <title><b>My Figma Schooled Homepage</b></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body class="works_on_smartphone">
+<body>
     <header>
-        <div class="logo">
-            <a><img src="./img/logo.png" alt="Smile school"></a>
+        <div class="logo-div">
+            <a href="https://getemoji.com/"target="_blank">
+                <img src="Images/logo.png" alt="Logo.png">
+            </a>
         </div>
-        <div class="page">
-            <a>COURSES</a>
-            <a>PRICING</a>
-            <a>LOGIN</a>
+        <div class="header_links_display"> 
+                <div class="anchor-tags">
+                    <a href="https://www.udacity.com/" target="_blank" class="header_links">COURSES</a>
+                </div>
+                <div class="anchor-tags">
+                    <a href="https://bit.ly/3PHUTER" target="_blank" class="header_links">PRICING</a>
+                </div>
+                <div class="anchor-tags">
+                    <a href="https://www.geeksforgeeks.org/" target="_blank" class="header_links">LOGIN</a>
+                </div>
         </div>
+
     </header>
-    <main>
-        <section class="banner">
-            <div class="Schooled">
-                <h1 class="title">Get Schooled</h1>
-                <p class="words">
-                    <word>SMILES</word>
-                    <word>GRIN</word>
-                    <word>LAUGH</word>
-                </p>
-                <button class="round_button">REGISTER FOR FREE</button>
-                <br><br><br><br><br><br>
+    <section class="first_section">
+        <div class="first_section_wrapper">
+            <div class="get_schooled_wrapper">
+                <h1>Get schooled</h1>
             </div>
-           
-            <div class="Pros">
-                <h2 class="highlight"><span><strong>Learn</strong></span> from the Pros</h2>
-                <div class="Pros_block">
-                    <div class="Pros_card">
-                         <img src="./img/avatar1.png" alt="Pics 1"> 
-                         <h3>Phillip Massey</h3>
-                         <p><i><< Smile of the year >><br>2018-2019</i></p>
-                    </div>
-
-                    <div class="Pros_card">
-                         <img src="./img/avatar2.png" alt="Pics 2">
-                         <h3>Nannie Lawrence</h3>
-                         <p><i>Best<< little smile >><br>2017</i></p>
-                    </div>
-
-                    <div class="Pros_card">
-                        <img src="./img/avatar3.png" alt="Pics 3">
-                        <h3>Bruce Walters</h3>
-                        <p><i>Best<< friend smile >><br>live performance 2019</i></p>
-                    </div>
-
-                    <div class="Pros_card">
-                         <img src="./img/avatar4.png" alt="Pics 4">
-                         <h3>Henry Hughes</h3>
-                         <p><i><< 24h smiles >>winner<br>2016-2019</i></p>
-                    </div>
+            <div class="grin-wrapper">
+                <div>SMILES</div>
+                <div class="grin">GRIN</div>
+                <div>LAUGH</div>
+            </div>
+            <div class="register">
+                <button>REGISTER FOR FREE</button>
+            </div>
+            <div class="pros-wrapper">
+                <h4> <span>Learn&nbsp;</span>from the pros</h4>
+            </div>
+            <div class="flex_banner_learn_banner_dist">
+                <div class="image-wrapper">
+                    <img src="Images/Phillip Massey.png" class="banner_images">
+                    <h3 class="banner_names">Philip Massey</h3>
+                    <p class="banner_names">« Smile of the year » <br> 2018 - 2019</p>
+                </div>
+                <div class="image-wrapper">
+                    <img src="Images/Nannie Lawrence.png" class="banner_images">
+                    <h3 class="banner_names">Nanni Lawrence</h3>
+                    <p class="banner_names">Best « little smile » <br>2017</p>
+                </div>
+                <div class="image-wrapper">
+                    <img src="Images/Bruce Walters.png" class="banner_images">
+                    <h3 class="banner_names"> Bruce Walter</h3>
+                    <p class="banner_names">Best « Friend Smile » <br>live performance 2019</p>
+                </div>
+                <div class="image-wrapper">
+                    <img src="Images/Henry Hughes.png" class="banner_images">
+                    <h3 class="banner_names">Henry Hughes</h3>
+                    <p class="banner_names">« 24h smiles » <br>winner 2016 - 2019</p>
                 </div>
             </div>
-        </section>
-
-        <section class="quote">
-            <div class="quote_block">
-                <img src="./img/avatar5.png" alt="Pics 5">
-                <div id="text">
-                    <blockquote><< Those tutorials are concise and go straight to the points. I can't think of a better place to 
-                       learn smiling. And it's so fun!</blockquote>
-                    <p class="presenter_name">Person Name</p>
-                    <p class="weather">weather presenter</p>
+        </div>
+    </section>
+    
+    <section class="second_section">
+        <div>
+            <img src="Images/Bitmap 1.png" alt="Joe_Williams.png" class="quote_image">
+            <div>
+                <blockquote>« Those tutorials are concise and go straight to the point. I can’t think of a better place to learn smiling. And it’s so fun!
+                </blockquote>
+                <p class="name">Joe Williams</p>
+                <p class="title">weather presenter</p>
+            </div>
+        </div>
+    </section>
+    <section class="third_section">
+        <h1 class="tutorial">Most<b class="popular"> popular</b> tutorials</h1>
+        <div class="third_section_div">
+            <div>
+                <img src="Images/Diagonal Smile.png" alt="Diagonal.png">
+                <h2 class="smiles">Diagonal Smile</h2>
+                <p class="smile_text">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+                <div class="flex">
+                    <img src="Images/9.png" alt="Phillip_Massey.png">
+                    <h3  class="philip">Philip Massey</h3>
+                </div>
+                <div>
+                    <div class="flex_1">
+                        <img src="Images/Colored_Rating_Star_1.jpeg" alt="colored_star">
+                        <img src="Images/Colored_Rating_Star_1.jpeg" alt="colored_star">
+                        <img src="Images/Colored_Rating_Star_1.jpeg" alt="colored_star">
+                        <img src="Images/Colored_Rating_Star_1.jpeg" alt="colored_star">
+                        <img src="Images/Colored_Rating_Star_1.jpeg" alt="colored_star">
+                    </div>
+                    <p>8 min</p>
                 </div>
             </div>
-        </section>
-
-        <section class="videos">
-            <h1>Most <span class="secondary_colour">popular</span> tutorials</h1>
-            <div class="videos_list">
-                <div class="video_card">
-                    <img src="./img/Diagonal_smile.png" alt="Diagonal smile"> 
-                    <h2 class="video_title">Diagonal Smile</h2>
-                    <p class="video_desc">Lorem ipsum dolor sit adipisicing elit. Quo totam hic, architecto odio repellat.</p>
-                
-                <div class="author">
-                    <img src="./img/image.png"> 
-                    <h3>Phillip Massey</h3>
+            <div>
+                <img src="Images/Diagonal Smile.png" alt="Diagonal.png">
+                <h2 class="smiles">Diagonal Smile</h2>
+                <p class="smile_text">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+                <div class="flex">
+                    <img src="Images/9.png" alt="Phillip_Massey.png">
+                    <h3  class="philip">Philip Massey</h3>
                 </div>
-                <div class="rating_duration">
-                    <div class="rating">
-                        <img src="./img/Star_1.png" alt="Star">
-                        <img src="./img/Star_2.png" alt="">
-                        <img src="./img/Star_3.png" alt="">
-                        <img src="./img/Star_4.png" alt="">
-                        <img src="./img/Star_5.png" alt="">
+                <div>
+                    <div class="flex_1">
+                        <img src="Images/Colored_Rating_Star_1.jpeg" alt="colored_star">
+                        <img src="Images/Colored_Rating_Star_1.jpeg" alt="colored_star">
+                        <img src="Images/Colored_Rating_Star_1.jpeg" alt="colored_star">
+                        <img src="Images/Colored_Rating_Star_1.jpeg" alt="colored_star">
+                        <img src="Images/Colored_Rating_Star_1.jpeg" alt="colored_star">
                     </div>
-                    <p class="duration">8 min</p>
-                </div>
-                </div>
-            
-
-                <div class="video_card">
-                    <img src="./img/Sad_smile.png" alt="Sad smile">
-                    <h2 class="video_title">Sad Smile</h2> 
-                    <p class="video_desc">Lorem ipsum dolor sit adipisicing elit. Quo totam hic, architecto odio repellat.</p>
-                
-                <div class="author">
-                    <img src="./img/image.png"> 
-                    <h3>Phillip Massey</h3>
-                </div>
-                <div class="rating_duration">
-                    <div class="rating">
-                        <img src="./img/Star_1.png" alt="Star">
-                        <img src="./img/Star_2.png" alt="">
-                        <img src="./img/Star_3.png" alt="">
-                        <img src="./img/Star_4.png" alt="">
-                        <img src="./img/Star_5.png" alt="">
-                    </div>
-                    <p class="duration">8 min</p>
-                </div>
-                </div>
-
-                <div class="video_card">
-                    <img src="./img/Natural_smile.png" alt="Natural smile">
-                    <h2 class="video_title">Natural Smile</h2>
-                    <p class="video_desc">Lorem ipsum dolor sit adipisicing elit. Quo totam hic, architecto odio repellat.</p>
-                
-                <div class="author">
-                    <img src="./img/image.png"> 
-                    <h3>Phillip Massey</h3>
-                </div>
-                <div class="rating_duration">
-                    <div class="rating">
-                        <img src="./img/Star_1.png" alt="Star">
-                        <img src="./img/Star_2.png" alt="">
-                        <img src="./img/Star_3.png" alt="">
-                        <img src="./img/Star_4.png" alt="">
-                        <img src="./img/Star_5.png" alt="">
-                    </div>
-                    <p class="duration">8 min</p>
-                </div>
-                </div>
-                
-                <div class="video_card">
-                    <img src="./img/Happy_smile.png" alt="Happy smile">
-                    <h2 class="video_title">Happy Smile</h2>
-                    <p class="video_desc">Lorem ipsum dolor sit adipisicing elit. Quo totam hic, architecto odio repellat.</p>
-                
-                <div class="author">
-                    <img src="./img/image.png"> 
-                    <h3>Phillip Massey</h3>
-                </div>
-                <div class="rating_duration">
-                    <div class="rating">
-                        <img src="./img/Star_1.png" alt="Star">
-                        <img src="./img/Star_2.png" alt="">
-                        <img src="./img/Star_3.png" alt="">
-                        <img src="./img/Star_4.png" alt="">
-                        <img src="./img/Star_5.png" alt="">
-                    </div>
-                    <p class="duration">8 min</p>
-                </div>
+                    <p>8 min</p>
                 </div>
             </div>
-        </section>
-
-        <section class="membership">
-            <h1><span class="secondary_colour">Free</span> memebership</h1>
-                <div class="membership_lists">
-                    <div class="membership_card">
-                        <img src="./img/smile.png" alt="Smile">
+                <div>
+                <img src="Images/Diagonal Smile.png" alt="Diagonal.png">
+                <h2 class="smiles">Diagonal Smile</h2>
+                <p class="smile_text">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+                <div class="flex">
+                    <img src="Images/9.png" alt="Phillip_Massey.png">
+                    <h3  class="philip">Philip Massey</h3>
+                </div>
+                <div>
+                    <div class="flex_1">
+                        <img src="Images/Colored_Rating_Star_1.jpeg" alt="colored_star">
+                        <img src="Images/Colored_Rating_Star_1.jpeg" alt="colored_star">
+                        <img src="Images/Colored_Rating_Star_1.jpeg" alt="colored_star">
+                        <img src="Images/Colored_Rating_Star_1.jpeg" alt="colored_star">
+                        <img src="Images/Colored_Rating_Star_1.jpeg" alt="colored_star">
+                    </div>
+                    <p>8 min</p>
+                </div>
+            </div>
+            <div>
+                <img src="Images/Diagonal Smile.png" alt="Diagonal.png">
+                <h2 class="smiles">Diagonal Smile</h2>
+                <p class="smile_text">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+                <div class="flex">
+                    <img src="Images/9.png" alt="Phillip_Massey.png">
+                    <h3  class="philip">Philip Massey</h3>
+                </div>
+                <div>
+                    <div class="flex_1">
+                        <img src="Images/Colored_Rating_Star_1.jpeg" alt="colored_star">
+                        <img src="Images/Colored_Rating_Star_1.jpeg" alt="colored_star">
+                        <img src="Images/Colored_Rating_Star_1.jpeg" alt="colored_star">
+                        <img src="Images/Colored_Rating_Star_1.jpeg" alt="colored_star">
+                        <img src="Images/Colored_Rating_Star_1.jpeg" alt="colored_star">
+                    </div>
+                    <p>8 min</p>
+                </div>
+            </div>
+    </section>
+            <section class="fourth_section">
+				<h1 class="membership"><b class="free">Free</b> membership</h1>
+                <div class="fourth_section_div">
+                    <div class="divs">
+                        <img src="Images/smile.png" alt="smile.png">
                         <h2>Lorem ipsum</h2>
-                        <p>Lorem ipsum dolor sitriores voluptatibus illo deleniti perferen.</p>
+                        <p>Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit.</p>
                     </div>
-                    
-                    <div class="membership_card">
-                        <img src="./img/smile.png" alt="Smile">
+                    <div class="divs">
+                        <img src="Images/smile.png" alt="smile.png">
                         <h2>Lorem ipsum</h2>
-                        <p>Lorem ipsum dolor sitriores voluptatibus illo deleniti perferen.</p>
+                        <p>Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit.</p>
                     </div>
-                    
-                    <div class="membership_card">
-                        <img src="./img/smile.png" alt="Smile">
+                    <div class="divs">
+                        <img src="Images/smile.png" alt="smile.png">
                         <h2>Lorem ipsum</h2>
-                        <p>Lorem ipsum dolor sitriores voluptatibus illo deleniti perferen.</p>
+                        <p>Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit.</p>
                     </div>
-                    
-                    <div class="membership_card">
-                        <img src="./img/smile.png" alt="Smile">
+                    <div class="divs">
+                        <img src="Images/smile.png" alt="smile.png">
                         <h2>Lorem ipsum</h2>
-                        <p>Lorem ipsum dolor sitriores voluptatibus illo deleniti perferen.</p>
+                        <p>Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit.</p>
                     </div>
-                
                 </div>
-            <button class="round_button">REGISTER FOR FREE</button>
-        </section>
-        
-        <section class="faq">
-            <h1>F.A.Q.</h1>
-            <div class="faq_lists">
-                <div class="faq_question">
-                    <h2>How does this work?</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus deserunt doloremque assumenda neque nulla veritatis dicta esse mollitia, quod quam, dolorem consectetur cumque minus. Nulla mollitia error doloribus soluta dolorem?</p>
+                <div class="register">
+                    <button>REGISTER FOR FREE</button>
                 </div>
-
-                <div class="faq_question">
-                    <h2>How does this work?</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos non laborum, aperiam alias ratione iste. Voluptates ipsum excepturi veritatis amet, maiores ad totam natus. Consequatur asperiores ab autem inventore corrupti.</p>
+            </section>
+            <h1 class="Q_and_A">F.A.Q.</h1>
+            <div class="fifth_flex fifth_section_out_div">
+                <div class="fifth_flex fifth_section_in_div">
+                    <div class="left_div">
+                        <h2>How does this work?</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt<br>ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation<br>ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in<br>reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur<br>sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim<br>id est laborum.</p>
+                    </div>
+                    <div class="right_div">
+                        <h2>How does this work</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt<br>ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation<br>ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in<br>reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur<br>sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim<br>id est laborum.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="faq_lists2">
-                <div class="faq_question">
-                    <h2>How does this work?</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque saepe quae, sit deserunt vero libero error quibusdam officia sint odit voluptatem tenetur, repellendus odio quidem ducimus ipsum impedit numquam dignissimos.</p>
-                </div>
-                <div class="faq_question">
-                    <h2>How does this work?</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem reprehenderit consequatur aut neque. Saepe, deleniti. Quisquam autem eligendi ab cum, placeat commodi exercitationem quod ipsa dolores vel ea nihil? Libero.</p>
+                <div class="fifth_flex fifth_section_in_div">
+                                            <div class="left_div">
+                                                    <h2>How does this work</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt<br>ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation<br>ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in<br>reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur<br>sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim<br>id est laborum.</p>
+                                            </div>
+                                            <div class="right_div">
+                                                    <h2>How does this work</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt<br>ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation<br>ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in<br>reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur<br>sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim<br>id est laborum.</p>
+                                            </div>
                 </div>
             </div>
         </section>
     </main>
-
-    <footer>
-        <div class="footer_section">
-            <div class="footer_nav">
-                <img src="./img/logo.png" alt="logo">
-                <div class="social media">
-                    <a href=""><img src="./img/social_icons.png" alt="Social media"></a>
-                </div>
+    <footer class="footer_section">
+        <div>
+            <div class="footer_div">
+            <img src="./Images/smile.png" alt="logo">
+            <div>
+                <a href="#">
+                    <img src="./Images/Facebook.png" alt="logo">
+                </a>
+                <a href="#">
+                    <img src="./Images/Twitter.png" alt="logo">
+                </a>
+                <a href="#">
+                     <img src="./Images/Instagram.png" alt="logo">
+                </a>
             </div>
-            <p>&#169; DevJosh 2023</p>
-        </div>    
-    </footer>
+        </div>
+        <p>&copy;smileschool 2020</p>
+    </div>
+</footer>
 </body>
 </html>

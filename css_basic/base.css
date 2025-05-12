@@ -1,8 +1,8 @@
 /* Importing webfonts */
 /* (If you're learning CSS, you should disregard that) */
 
-@import url(https://fonts.googleapis.com/css?family=Yeseva+One);
-@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,700,700italic,400italic);
+@import url(https://fonts.googleapis.com/css?family=RedHatDisplay);
+@import url(https://fonts.googleapis.com/css?family=Poppins);
 
 
 /* CSS reset rules */
@@ -56,11 +56,11 @@ table {
 /* Fonts and colors */
 
 body {
-	font-family: 'Josefin Sans', serif;
+	font-family: 'Poppins', sans-serif;
 	color: rgba(0, 0, 0, 0.8);
 }
 h1, h2, h3, h4, h5, h6, header {
-	font-family: 'Yeseva One', sans-serif;
+	font-family: 'Red Hat Display', sans-serif;
 }
 article {
 }
@@ -113,8 +113,8 @@ header .right {
 
 /* Header */
 header {
-	padding: 20px 0;
-	height: 80px;
+	padding: 40px 0;
+	height: 60px;
 }
 header ul {
 	list-style: none;
@@ -123,7 +123,7 @@ header ul {
 }
 header li {
 	display: inline;
-	vertical-align:middle;
+	vertical-align:none;
 }
 header li:first-child {
 	margin: 0;
@@ -133,8 +133,6 @@ header li a {
 }
 header li.logo {
 	font-size: 36px;
-    padding-right: 700px;
-    padding-left: 50px;
 }
 header a {
 	text-decoration: none;
@@ -160,7 +158,7 @@ footer {
 /* Text styles and margins */
 
 p {
-	margin-bottom: 15px;
+	margin-bottom: 20px;
 }
 h1 {
 	font-size: 36px;
