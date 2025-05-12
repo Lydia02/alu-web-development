@@ -20,6 +20,7 @@ class LRUCache(BaseCaching):
             del self.cache_data[key]
         self.cache_data[key] = item
     def get(self, key):
+        
         """Get an item in the cache"""
         if key is None or key not in self.cache_data:
             return None
@@ -27,4 +28,3 @@ class LRUCache(BaseCaching):
         del self.cache_data[key]
         self.cache_data[key] = item
         return self.cache_data[key]
-        
