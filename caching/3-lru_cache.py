@@ -6,7 +6,6 @@ BaseCaching = __import__('base_caching').BaseCaching
 
 class LRUCache(BaseCaching):
     """ lru cache """
-    
     def put(self, key, item):
         """Add an item in the cache"""
         if key is None or item is None:
@@ -29,3 +28,4 @@ class LRUCache(BaseCaching):
         del self.cache_data[key]
         self.cache_data[key] = item
         return self.cache_data[key]
+        
